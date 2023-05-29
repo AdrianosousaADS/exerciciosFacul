@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+#logo{
+    width: 210px;
+    height: auto;
+}
+
+.card-group{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: rgb(241, 118, 118);
+}
+
+.card-img-top{
+    width: 150px;
+    height: auto;
+}

@@ -1,10 +1,11 @@
+import RouterApp from './routes';
+
 function App() {
-  return (
-    <div>
-      <h1>Teste Login</h1>
-      <Login />
-    </div>
-  );
+
+  return (  
+        <RouterApp/>
+        
+      );
 }
 
 export default App;
