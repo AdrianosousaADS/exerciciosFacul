@@ -7,6 +7,7 @@ Route
 import Home from './pages/Home';
 import Veiculos from './pages/Veiculos';
 import SobreNos from './pages/SobreNos';
+import Login from './pages/Login';
 import Header from './componentes/header';
 
 
@@ -19,6 +20,7 @@ function RouterApp() {
           <Route path="/" element={<Home />} />
           <Route path="/veiculos" element={<Veiculos />} />
           <Route path="/sobre" element={<SobreNos />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     );
